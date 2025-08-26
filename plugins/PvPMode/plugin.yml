@@ -1,0 +1,20 @@
+name: PvPMode
+version: 2.0.0
+main: PvPMode\Main
+api: 5.31.1
+author: YourName
+description: PvP режим с BossBar таймером
+
+depend:
+  - BossBar
+
+permissions:
+  pvpmode.bypass:
+    description: Allows bypassing PvP mode restrictions
+    default: op
+
+commands:
+  pvpmode:
+    description: PvPMode commands
+    usage: "/pvpmode [info|reload]"
+    permission: pvpmode.bypass

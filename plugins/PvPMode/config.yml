@@ -1,0 +1,13 @@
+# Время PvP режима в секундах
+pvp-time: 30
+
+# Разрешенные команды в PvP режиме
+allowed-commands:
+  - "/tell"
+  - "/say"
+  - "/me"
+  - "/msg"
+  - "/w"
+
+# Использовать BossBar (требует плагин BossBar)
+use-bossbar: true

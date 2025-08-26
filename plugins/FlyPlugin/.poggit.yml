@@ -1,0 +1,5 @@
+--- # Poggit-CI Manifest
+projects:
+  FlyPlugin:
+    path: ""
+    model: virion

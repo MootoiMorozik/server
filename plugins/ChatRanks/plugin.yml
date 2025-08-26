@@ -1,0 +1,12 @@
+name: ChatRanks
+version: 1.0.0
+main: ChatRanks\Main
+api: 5.31.1
+author: YourName
+commands:
+  ranks:
+    description: Manage player ranks
+    permission: ranks.command
+permissions:
+  ranks.command:
+    default: op

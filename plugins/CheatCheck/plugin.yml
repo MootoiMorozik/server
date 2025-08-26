@@ -1,0 +1,14 @@
+name: CheatCheck
+version: 1.0.0
+main: CheatCheck\Main
+api: 5.31.1
+author: YourName
+commands:
+  check:
+    description: Cheat check system
+    permission: check.command
+permissions:
+  check.command:
+    default: op
+  check.bypass:
+    default: false

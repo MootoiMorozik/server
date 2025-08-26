@@ -1,0 +1,14 @@
+name: FlyPlugin
+version: 1.0.0
+main: FlyPlugin\Main
+api: 5.31.1
+author: YourName
+commands:
+  fly:
+    description: Toggle flight mode
+    usage: "/fly [player]"
+    permission: fly.command
+permissions:
+  fly.command:
+    description: Allows to use fly command
+    default: op
